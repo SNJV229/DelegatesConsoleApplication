@@ -1,0 +1,15 @@
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Debug\net6.0\ConsoleApp-Delegates.csproj.AssemblyReference.cache
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Debug\net6.0\ConsoleApp-Delegates.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Debug\net6.0\ConsoleApp-Delegates.AssemblyInfoInputs.cache
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Debug\net6.0\ConsoleApp-Delegates.AssemblyInfo.cs
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Debug\net6.0\ConsoleApp-Delegates.csproj.CoreCompileInputs.cache
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\bin\Debug\net6.0\ConsoleApp-Delegates.exe
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\bin\Debug\net6.0\ConsoleApp-Delegates.deps.json
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\bin\Debug\net6.0\ConsoleApp-Delegates.runtimeconfig.json
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\bin\Debug\net6.0\ConsoleApp-Delegates.dll
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\bin\Debug\net6.0\ConsoleApp-Delegates.pdb
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Debug\net6.0\ConsoleApp-Delegates.dll
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Debug\net6.0\refint\ConsoleApp-Delegates.dll
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Debug\net6.0\ConsoleApp-Delegates.pdb
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Debug\net6.0\ConsoleApp-Delegates.genruntimeconfig.cache
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Debug\net6.0\ref\ConsoleApp-Delegates.dll
