@@ -103,3 +103,5 @@ D:\C#\ConsoleApp-Delegates\delegateTestProject\bin\Release\net6.0\ConsoleApp-Del
 D:\C#\ConsoleApp-Delegates\delegateTestProject\bin\Release\net6.0\ConsoleApp-Delegates.exe
 D:\C#\ConsoleApp-Delegates\delegateTestProject\bin\Release\net6.0\ConsoleApp-Delegates.dll
 D:\C#\ConsoleApp-Delegates\delegateTestProject\bin\Release\net6.0\ConsoleApp-Delegates.pdb
+D:\C#\ConsoleApp-Delegates\delegateTestProject\bin\Release\net6.0\Castle.Core.dll
+D:\C#\ConsoleApp-Delegates\delegateTestProject\bin\Release\net6.0\Moq.dll

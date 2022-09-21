@@ -13,3 +13,6 @@ D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Release\net6.0\refint\Consol
 D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Release\net6.0\ConsoleApp-Delegates.pdb
 D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Release\net6.0\ConsoleApp-Delegates.genruntimeconfig.cache
 D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Release\net6.0\ref\ConsoleApp-Delegates.dll
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\bin\Release\net6.0\Castle.Core.dll
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\bin\Release\net6.0\Moq.dll
+D:\C#\ConsoleApp-Delegates\ConsoleApp-Delegates\obj\Release\net6.0\ConsoleApp-Delegates.csproj.CopyComplete

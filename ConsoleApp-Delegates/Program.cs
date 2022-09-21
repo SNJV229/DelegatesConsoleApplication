@@ -1,79 +1,82 @@
 ﻿using System;
 using System.Data;
+using System.Reflection.PortableExecutable;
 using System.Security.Cryptography.X509Certificates;
-using static Program.displayClass;
+using static Program.firstClass;
 
 namespace Program
 {
 
-    public delegate string delegateConsoleReader();
+    public delegate void delegateConsoleReader(string str);
 
-    public class displayClass
+    public class firstClass
     { 
         public static void Main()
         {
             ConsoleReader reader = new ConsoleReader();
+            IconsoleReader display = new displayClass();
             //displayClass display = new displayClass();
-            delegateConsoleReader dOnWord = new delegateConsoleReader(reader.onWord);
-            delegateConsoleReader dOnNumber = new delegateConsoleReader(reader.onNumber);
-            delegateConsoleReader dOnJunk = new delegateConsoleReader(reader.onJunk);
+            delegateConsoleReader dOnWord = new delegateConsoleReader(display.onWord);
+            delegateConsoleReader dOnNumber = new delegateConsoleReader(display.onNumber);
+            delegateConsoleReader dOnJunk = new delegateConsoleReader(display.onJunk);
             string str;
             while (true)
             {
                 str = Console.ReadLine();
                 reader.run(str, dOnWord, dOnNumber, dOnJunk);
-            } 
+            }
         }
     }
 
     public interface IconsoleReader
     {
-        public string onWord();
-        public string onNumber();
-        public string onJunk();
+        public void onWord(string str);
+        public void onNumber(string str);
+        public void onJunk(string str);
 
-        public void run(string str, delegateConsoleReader onWord, delegateConsoleReader onNumber, delegateConsoleReader onJunk);
     }
 
-    public class ConsoleReader : IconsoleReader
+    public class ConsoleReader
     {
 
-        public string onWord()
+        public void run(String str, delegateConsoleReader dOnWord, delegateConsoleReader dOnNumber, delegateConsoleReader dOnJunk)
         {
-            return "Inside onWord";
+                if (str.All(char.IsLetter))
+                {
+                    dOnWord(str);
+                }
+                else if (str.All(char.IsDigit))
+                {
+                    dOnNumber(str);
+                }
+                else if (str.All(char.IsLetterOrDigit))
+                {
+                    dOnWord(str);
+                }
+                else
+                {
+                    dOnJunk(str);
+                }
         }
 
-        public  string onNumber()
+    }
+
+    public class displayClass : IconsoleReader
+    {
+        public void onWord(string str)
         {
-            return "Inside onNumber";
+            Console.WriteLine("Inside onWord"); 
         }
 
-        public  string onJunk()
+        public void onNumber(string str)
         {
-            return "Inside onJunk";
+            Console.WriteLine("Inside onNumber"); 
         }
 
-        public void run(string str, delegateConsoleReader dOnWord, delegateConsoleReader dOnNumber, delegateConsoleReader dOnJunk)
+        public void onJunk(string str)
         {
-
-            if (str.All(char.IsLetter))
-            {
-                Console.WriteLine(dOnWord.Invoke());
-            }
-            else if (str.All(char.IsDigit))
-            {
-                Console.WriteLine(dOnNumber.Invoke());
-            }
-            else if (str.All(char.IsLetterOrDigit))
-            {
-                Console.WriteLine(dOnWord.Invoke());
-            }
-            else
-            {
-                Console.WriteLine(dOnJunk.Invoke());
-            }
+            Console.WriteLine("Inside onJunk");
         }
-
     }
 
 }
